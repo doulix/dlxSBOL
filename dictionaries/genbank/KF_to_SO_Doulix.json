@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "authors": "De Lucrezia D., Marletta A.S. and Filisetti A.",
+    "organization": "https://doulix.com",
+    "comment": "This is genebank key features to sequence ontology dictionary copatibel with genebank Version 10.8 and earlier releases. It includes non canonical key features commonly used by commercial sw.",
+    "version": 0.4,
+    "release_date": 20190604
+  },
+  "feature_key": {
+    "assembly_gap": {
+      "default": "http://identifiers.org/so/SO:0000730"
+    },
+    "C_region": {
+      "default": "http://identifiers.org/so/SO:0001834"
+    },
+    "CDS": {
+      "default": "http://identifiers.org/so/SO:0000316"
+    },
+    "START codon": {
+      "default": "http://identifiers.org/so/SO:0000318"
+    },
+    "STOP codon": {
+      "default": "http://identifiers.org/so/SO:0000319"
+    },
+    "centromere": {
+      "default": "http://identifiers.org/so/SO:0000577"
+    },
+    "D-loop": {
+      "default": "http://identifiers.org/so/SO:0000297"
+    },
+    "D_segment": {
+      "default": "http://identifiers.org/so/SO:0000458"
+    },
+    "exon": {
+      "default": "http://identifiers.org/so/SO:0000147"
+    },
+    "gap": {
+      "default": "http://identifiers.org/so/SO:0000730"
+    },
+    "gene": {
+      "default": "http://identifiers.org/so/SO:0000704"
+    },
+    "iDNA": {
+      "default": "http://identifiers.org/so/SO:0000723"
+    },
+    "intron": {
+      "default": "http://identifiers.org/so/SO:0000188"
+    },
+    "J_segment": {
+      "default": "http://identifiers.org/so/SO:0000470"
+    },
+    "mat_peptide": {
+      "default": "http://identifiers.org/so/SO:0000419"
+    },
+    "misc_binding": {
+      "default": "http://identifiers.org/so/SO:0000409"
+    },
+    "misc_difference": {
+      "default": "http://identifiers.org/so/SO:0000413"
+    },
+    "misc_feature": {
+      "default": "http://identifiers.org/so/SO:0001411"
+    },
+    "misc_recomb": {
+      "default": "http://identifiers.org/so/SO:0000298"
+    },
+    "misc_RNA": {
+      "default": "http://identifiers.org/so/SO:0000673"
+    },
+    "misc_structure": {
+      "default": "http://identifiers.org/so/SO:0000002"
+    },
+    "mobile_element": {
+      "default": "http://identifiers.org/so/SO:0001037"
+    },
+    "modified_base": {
+      "default": "http://identifiers.org/so/SO:0000305"
+    },
+    "mRNA": {
+      "default": "http://identifiers.org/so/SO:0000234"
+    },
+    "ncRNA": {
+      "default": "http://identifiers.org/so/SO:0000655",
+      "qualifiers": {
+        "ncRNA_class": {
+          "miRNA": "http://identifiers.org/so/SO:0000276",
+          "siRNA": "http://identifiers.org/so/SO:0000646",
+          "scRNA": "http://identifiers.org/so/SO:0000013",
+          "sgRNA": "http://identifiers.org/so/SO:0001998",
+          "ncRNA": "http://identifiers.org/so/SO:0000655",
+          "ribozyme": "http://identifiers.org/so/SO:0000374"
+        },
+        "function": {
+          "ribozyme": "http://identifiers.org/so/SO:0000374"
+        }
+      }
+    },
+    "N_region": {
+      "default": "http://identifiers.org/so/SO:0001835"
+    },
+    "old_sequence": {
+      "default": "http://identifiers.org/so/SO:0000413"
+    },
+    "operon": {
+      "default": "http://identifiers.org/so/SO:0000178"
+    },
+    "oriT": {
+      "default": "http://identifiers.org/so/SO:0000724"
+    },
+    "polyA_site": {
+      "default": "http://identifiers.org/so/SO:0000553"
+    },
+    "precursor_RNA": {
+      "default": "http://identifiers.org/so/SO:0000185"
+    },
+    "prim_transcript": {
+      "default": "http://identifiers.org/so/SO:0000185"
+    },
+    "primer_bind": {
+      "default": "http://identifiers.org/so/SO:0005850"
+    },
+    "propeptide": {
+      "default": "http://identifiers.org/so/SO:0001062"
+    },
+    "protein_bind": {
+      "default": "http://identifiers.org/so/SO:0000410"
+    },
+    "regulatory": {
+      "default": "http://identifiers.org/so/SO:0001055",
+      "qualifiers": {
+        "regulatory_class": {
+          "promoter": "http://identifiers.org/so/SO:0000167",
+          "terminator": "http://identifiers.org/so/SO:0000141",
+          "enhancer": "http://identifiers.org/so/SO:0000165",
+          "CAAT_signal": "http://identifiers.org/so/SO:0000172",
+          "TATA_box": "http://identifiers.org/so/SO:0000174",
+          "minus_35_signal": "http://identifiers.org/so/SO:0000176",
+          "minus_10_signal": "http://identifiers.org/so/SO:0000175",
+          "ribosome_binding_site": "http://identifiers.org/so/SO:0000139",
+          "GC_signal": "http://identifiers.org/so/SO:0000173",
+          "polyA_signal": "http://identifiers.org/so/SO:0000551",
+          "attenuator": "http://identifiers.org/so/SO:0000140",
+          "regulatory": "http://identifiers.org/so/SO:0001055",
+          "other": "http://identifiers.org/so/SO:0001055"
+        }
+      }
+    },
+    "repeat_region": {
+      "default": "http://identifiers.org/so/SO:0000657"
+    },
+    "rep_origin": {
+      "default": "http://identifiers.org/so/SO:0000296"
+    },
+    "rRNA": {
+      "default": "http://identifiers.org/so/SO:0000252"
+    },
+    "S_region": {
+      "default": "http://identifiers.org/so/SO:0001836"
+    },
+    "sig_peptide": {
+      "default": "http://identifiers.org/so/SO:0000418"
+    },
+    "stem_loop": {
+      "default": "http://identifiers.org/so/SO:0000313"
+    },
+    "STS": {
+      "default": "http://identifiers.org/so/SO:0000331"
+    },
+    "telomere": {
+      "default": "http://identifiers.org/so/SO:0000624"
+    },
+    "tmRNA": {
+      "default": "http://identifiers.org/so/SO:0000584"
+    },
+    "transit_peptide": {
+      "default": "http://identifiers.org/so/SO:0000725"
+    },
+    "tRNA": {
+      "default": "http://identifiers.org/so/SO:0000253"
+    },
+    "unsure": {
+      "default": "http://identifiers.org/so/SO:0001086"
+    },
+    "V_region": {
+      "default": "http://identifiers.org/so/SO:0001833"
+    },
+    "V_segment": {
+      "default": "http://identifiers.org/so/SO:0000466"
+    },
+    "variation": {
+      "default": "http://identifiers.org/so/SO:0000109"
+    },
+    "3'UTR": {
+      "default": "http://identifiers.org/so/SO:0000205"
+    },
+    "5'UTR": {
+      "default": "http://identifiers.org/so/SO:0000204"
+    },
+    "primer": {
+      "default": "http://identifiers.org/so/SO:0000112"
+    },
+    "oligo": {
+      "default": "http://identifiers.org/so/SO:0000696"
+    },
+    "oligonucleotide": {
+      "default": "http://identifiers.org/so/SO:0000696"
+    },
+    "probe": {
+      "default": "http://identifiers.org/so/SO:0000051"
+    },
+    "TATA_signal": {
+      "default": "http://identifiers.org/so/SO:0000174"
+    },
+    "-35_signal": {
+      "default": "http://identifiers.org/so/SO:0000176"
+    },
+    "-10_signal": {
+      "default": "http://identifiers.org/so/SO:0000175"
+    },
+    "RBS": {
+      "default": "http://identifiers.org/so/SO:0000139"
+    },
+    "misc_signal": {
+      "default": "http://identifiers.org/so/SO:0001411"
+    },
+    "promoter": {
+      "default": "http://identifiers.org/so/SO:0000167"
+    },
+    "terminator": {
+      "default": "http://identifiers.org/so/SO:0000141"
+    },
+    "enhancer": {
+      "default": "http://identifiers.org/so/SO:0000165"
+    },
+    "CAAT_signal": {
+      "default": "http://identifiers.org/so/SO:0000172"
+    },
+    "TATA_box": {
+      "default": "http://identifiers.org/so/SO:0000174"
+    },
+    "minus_35_signal": {
+      "default": "http://identifiers.org/so/SO:0000176"
+    },
+    "minus_10_signal": {
+      "default": "http://identifiers.org/so/SO:0000175"
+    },
+    "ribosome_binding_site": {
+      "default": "http://identifiers.org/so/SO:0000139"
+    },
+    "GC_signal": {
+      "default": "http://identifiers.org/so/SO:0000173"
+    },
+    "polyA_signal": {
+      "default": "http://identifiers.org/so/SO:0000551"
+    },
+    "attenuator": {
+      "default": "http://identifiers.org/so/SO:0000140"
+    },
+    "miRNA": {
+      "default": "http://identifiers.org/so/SO:0000276"
+    },
+    "siRNA": {
+      "default": "http://identifiers.org/so/SO:0000646"
+    },
+    "scRNA": {
+      "default": "http://identifiers.org/so/SO:0000013"
+    },
+    "gRNA": {
+      "default": "http://identifiers.org/so/SO:0001998"
+    },
+    "sgRNA": {
+      "default": "http://identifiers.org/so/SO:0001998"
+    },
+    "ribozyme": {
+      "default": "http://identifiers.org/so/SO:0000374"
+    },
+	"source": {
+      "default": "http://identifiers.org/so/SO:0002206",
+      "qualifiers": {
+        "mol_type": {
+          "genomic DNA": "http://identifiers.org/so/SO:0000991",
+          "genomic RNA": "http://identifiers.org/so/SO:0000234",
+          "mRNA": "http://identifiers.org/so/SO:0000234",
+          "tRNA": "http://identifiers.org/so/SO:0000253",
+          "rRNA": "http://identifiers.org/so/SO:0000252",
+		      "other RNA": "http://identifiers.org/so/SO:0000673",
+          "other DNA": "http://identifiers.org/so/SO:0000352",
+		      "transcribed RNA": "http://identifiers.org/so/SO:0000673",
+		      "viral cRNA": "http://identifiers.org/so/SO:0001200",
+		      "unassigned DNA": "http://identifiers.org/so/SO:0000655",
+		      "unassigned RNA": "http://identifiers.org/so/SO:0000673"
+        }
+      }
+    }
+  }
+}
